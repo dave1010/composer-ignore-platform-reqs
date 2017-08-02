@@ -1,0 +1,15 @@
+{
+    "name": "dave1010/composer-no-platform-reqs",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dave1010\\NoPlatformReqs\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Dave1010\\NoPlatformReqs\\Plugin"
+    }
+}
